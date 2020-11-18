@@ -81,6 +81,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/PaginaStyle.png" width="375px" alt="omschrijving van de pagina">
+<img src="images/allbikes.png" width="375px" alt="omschrijving van de pagina">
 
 
