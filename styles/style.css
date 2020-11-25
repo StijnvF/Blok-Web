@@ -1,5 +1,402 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
 }
 
+.background-boven {
+  background-image: url(../images/Super73_RSeries_HeroSlider_001_2880x1620_53b3ca9d-1240-4396-a32c-6d5fdfa18242_4472x.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+  margin-top: 5em;
+}
+
+/* .home-image {
+    height: 100vh;
+    position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+
+.home-text {
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.home-text>p {
+  margin-bottom: 3em;
+  margin-top: 1em;
+}
+
+.home-text>a {
+  background: #41c7f3;
+  color: black;
+  text-decoration: none;
+  border-color: black;
+  border: 1.5px;
+  border-radius: 10em;
+  padding: 0.5em 1.5em;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.home-text h1 {
+  font-size: 3.1em;
+  font-weight: 800;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.carousel {
+  width: 100%;
+}
+
+.uitgelicht {
+  display: flex;
+  background-color: black;
+  color: white;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}
+
+.uitgelicht>article {
+  display: flex;
+  flex-direction: column;
+}
+
+.uitgelicht>h2 {
+  font-size: 3em;
+  margin-bottom: .2em;
+  margin-top: 1em;
+}
+
+.uitgelicht>h4 {
+  font-weight: 100;
+  font-size: 1.2em;
+  margin-bottom: 3em;
+}
+
+.uitgelicht>article>img {
+  width: 100%;
+}
+
+.uitgelicht>article>h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.75em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+
+.uitgelicht>article>p {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+.uitgelicht>article>p>span {
+  text-decoration: line-through;
+  margin-right: 0.5em;
+}
+
+.uitgelicht>article>a {
+  align-self: center;
+  background: #41c7f3;
+  color: black;
+  text-decoration: none;
+  border-color: black;
+  border: 1.5px;
+  border-radius: 10em;
+  padding: 0.5em 1.5em;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  font-weight: 100;
+  margin-bottom: 3em;
+  margin-top: 1em;
+}
+
+
+.bikes {
+  display: flex;
+  flex-direction: column;
+}
+
+.bikes>article>img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.bikes>article>h2 {
+  font-size: 2em;
+  margin-top: 1em;
+  margin-left: .5em;
+  margin-right: .5em;
+}
+
+.bikes>article>p {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  line-height: 1.3em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.bikes>article>a {
+  background: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 10em;
+  padding: 1em 1.5em;
+  text-transform: uppercase;
+  font-weight: 100;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.bikesB {
+  text-align: right;
+
+}
+
+.merken {
+  display: flex;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews>p {
+  line-height: 1.7em;
+  text-align: center;
+  margin-top: 8em;
+  color: grey;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.reviews>cite {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.merken>img {
+  display: flex;
+  align-self: center;
+  width: 100%;
+  margin-top: 10em;
+  margin-bottom: 5em;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+
+
+footer {
+  background-color: #222222;
+  color: white;
+  display: flex;
+  flex-direction: column;
+
+}
+
+footer>section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer>section>h5 {
+  align-self: center;
+  margin-top: 3em;
+}
+
+footer>section>ul {
+   list-style-type: none; 
+}
+
+footer>section>ul>li {
+  margin-top: 0.8em;
+}
+
+footer>section>ul>li>a {
+  text-decoration: none;
+  color: rgb(179, 179, 179);
+}
+
+.bovenfooter {
+  display: flex;
+}
+
+.bovenfooter>p {
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  text-align: center;
+  font-size: .75em;
+  color: rgba(255, 255, 255, 0.281);
+}
+
+.info {
+  display: flex;
+}
+
+.info>p {
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.info2 {
+  display: flex;
+}
+
+.info2>ul>li {
+  text-align: center;
+  color: white;
+}
+
+.info3 {
+  display: flex;
+  margin-bottom: 3em;
+}
+
+.info3>ul>li {
+  text-align: center;
+}
+
+.info3>ul>h5 {
+  text-align: center;
+}
+.socials{
+  display: flex;
+}
+.socials>ul>li>a {
+  flex-direction: row;
+}
+
+/* pagina 2 begin */
+
+.pagina2 {
+  display: flex;
+  background-color: black;
+  color: white;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}
+
+.pagina2>article {
+  display: flex;
+  flex-direction: column;
+}
+
+.pagina2>article>img {
+  width: 75%;
+  align-self: center;
+}
+
+.pagina2>article>h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  margin-top: 3em;
+}
+
+.pagina2>article>p {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  font-size: 1.2em;
+  font-weight: 100;
+}
+
+.pagina2>article>p>span {
+  text-decoration: line-through;
+  margin-right: 0.5em;
+}
+
+.pagina2>article>a {
+  align-self: center;
+  background: #41c7f3;
+  color: black;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 10em;
+  padding: 0.5em 1.5em;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  font-weight: 100;
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+
+.pagina2>article>div {
+  align-self: center;
+  margin-bottom: 3em;
+  margin-top: 2em;
+}
+
+.pagina2>article>div>a {
+  background: black;
+  color: white;
+  text-decoration: none;
+  border: 1.5px solid white;
+  border-radius: 10em;
+  padding: 0.5em 1.5em;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.allbikes {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(32, 32, 32);
+}
+
+.allbikes>img {
+  width: 100%;
+}
+
+.allbikes>h2 {
+  display: flex;
+  align-self: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 100;
+  padding: 1em 0 2em 0;
+}
