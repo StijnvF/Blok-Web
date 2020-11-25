@@ -6,8 +6,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
+1. https://fontawesome.com/icons/instagram?style=brands <!-- social media icoontjes -->
+2. https://commons.wikimedia.org/wiki/File:Flag_of_the_Netherlands.svg <!-- icoontje van nederlandse vlag --> 
 3. -...-
 
 
@@ -38,7 +38,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Ik ben begonnen met de HTML van de main. De "simpele" dingen gingen goed. Ik heb de wat lastigere carousel dingen uitgesteld. De footer was lastig mar is uiteindelijk goed gelukt. De basis is er nu. Hier kan ik mee verder werken, nu nog de moeilijkere dingen en de header.
 
 **Screenshot(s):**
 
