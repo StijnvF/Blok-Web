@@ -5,9 +5,27 @@
   box-sizing: border-box;
   font-family: sans-serif;
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
+/* start header */
+header>nav>ul>li>a>img {
+  width: 16px;
+  /* filter: invert(0%) sepia(51%) saturate(0%) hue-rotate(346deg) brightness(1000%) contrast(100%); */
+}
+nav {
+  display: flex;
+}
+header>nav>ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+header>nav>ul>li {
+  margin: .5em;
+}
+
+/* einde header */
 .background-boven {
   background-image: url(../images/Super73_RSeries_HeroSlider_001_2880x1620_53b3ca9d-1240-4396-a32c-6d5fdfa18242_4472x.jpg);
   height: 100vh;
@@ -219,6 +237,7 @@ video {
   width: 100%;
   height: auto;
 }
+
 /* start footer */
 
 footer {
@@ -238,7 +257,7 @@ footer>section>h5 {
 }
 
 footer>section>ul {
-   list-style-type: none;  
+  list-style-type: none;
 }
 
 footer>section>ul>li {
@@ -253,6 +272,7 @@ footer>section>ul>li>a {
 .bovenfooter {
   display: flex;
 }
+
 .bovenfooter>ul>li {
   text-align: center;
 }
@@ -294,18 +314,22 @@ footer>section>ul>li>a {
 
 .info3>ul>li {
   text-align: center;
-} 
+}
 
 .info3>ul>h5 {
   text-align: center;
 }
-
+.socials {
+  padding-bottom: 3rem;
+}
 .socials>ul {
   display: flex;
 }
+
 .socials>ul>li {
   flex-direction: row;
 }
+
 /* einde footer */
 /* pagina 2 begin */
 
