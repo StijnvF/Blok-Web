@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
   margin: 0;
+  padding:0;
 }
 
 .background-boven {
@@ -218,15 +219,11 @@ video {
   width: 100%;
   height: auto;
 }
-
-
+/* start footer */
 
 footer {
   background-color: #222222;
   color: white;
-  display: flex;
-  flex-direction: column;
-
 }
 
 footer>section {
@@ -241,7 +238,7 @@ footer>section>h5 {
 }
 
 footer>section>ul {
-   list-style-type: none; 
+   list-style-type: none;  
 }
 
 footer>section>ul>li {
@@ -255,6 +252,9 @@ footer>section>ul>li>a {
 
 .bovenfooter {
   display: flex;
+}
+.bovenfooter>ul>li {
+  text-align: center;
 }
 
 .bovenfooter>p {
@@ -294,18 +294,19 @@ footer>section>ul>li>a {
 
 .info3>ul>li {
   text-align: center;
-}
+} 
 
 .info3>ul>h5 {
   text-align: center;
 }
-.socials{
+
+.socials>ul {
   display: flex;
 }
-.socials>ul>li>a {
+.socials>ul>li {
   flex-direction: row;
 }
-
+/* einde footer */
 /* pagina 2 begin */
 
 .pagina2 {
