@@ -41,18 +41,28 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 Ik ben begonnen met de HTML van de main. De "simpele" dingen gingen goed. Ik heb de wat lastigere carousel dingen uitgesteld. De footer was lastig mar is uiteindelijk goed gelukt. De basis is er nu. Hier kan ik mee verder werken, nu nog de moeilijkere dingen en de header.
 
 **Screenshot(s):**
+<img src="images/progress.png" width="375px" alt="omschrijving van de pagina">
+<img src="images/progress2.png" width="375px" alt="omschrijving van de pagina">
 
--screenshot(s) van hoe ver je bent met korte uitleg-
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Student 1
+-hoe maak je een oneindige loop van fotos horizontaal?
+-hoe zorg je er voor dat fotos na 5 sec veranderen, + tekst?
+-Hoe kan ik het hamburger menu fiksen?
+
+Student 2
+-Wanneer gebruik ik te veel classes? Is het aantal wat ik heb te veel?
+
+Student 3
+-Gebruik ik teveel div's?
+
+Student 4
+-Hoe maak je een dropdown met transition die over andere tekst heen valt?
+-Hoe maak je een dropdown navigatie, die navigeert naar content op dezelfde pagina?
+-Hoe kan ik zien welke icon (<i> element) er word gebruikt?
 
 ### Verslag van meeting
 
