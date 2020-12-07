@@ -11,11 +11,17 @@
 /* start header */
 header>nav>ul>li>a>img {
   width: 16px;
-  /* filter: invert(0%) sepia(51%) saturate(0%) hue-rotate(346deg) brightness(1000%) contrast(100%); */
+  filter: invert(100%) ;
 }
 nav {
   display: flex;
+  background-color: black;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  position: fixed; 
+  width: 100vw;
 }
+
 header>nav>ul {
   display: flex;
   flex-direction: row;
@@ -23,6 +29,13 @@ header>nav>ul {
 }
 header>nav>ul>li {
   margin: .5em;
+}
+.hamburger {
+  filter: invert(100%) ;
+  width: 16px;
+  margin-top: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /* einde header */
@@ -34,7 +47,7 @@ header>nav>ul>li {
   background-size: cover;
   position: relative;
   color: white;
-  margin-top: 5em;
+  
 }
 
 /* .home-image {
