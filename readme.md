@@ -66,7 +66,7 @@ Student 4
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Het lijkt er op dat ik de goede kant op ga. Er moet nog van alles gebeuren maar op dit punt van het vak is dat normaal.
 
 
 
