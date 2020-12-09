@@ -11,15 +11,17 @@
 /* start header */
 header>nav>ul>li>a>img {
   width: 16px;
-  filter: invert(100%) ;
+  filter: invert(100%);
 }
+
 nav {
   display: flex;
   background-color: black;
   padding-top: 1em;
   padding-bottom: 1em;
-  position: fixed; 
+  position: fixed;
   width: 100vw;
+  z-index: 1;
 }
 
 header>nav>ul {
@@ -27,15 +29,21 @@ header>nav>ul {
   flex-direction: row;
   list-style-type: none;
 }
+
 header>nav>ul>li {
   margin: .5em;
 }
+
 .hamburger {
-  filter: invert(100%) ;
+  filter: invert(100%);
   width: 16px;
   margin-top: 8px;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.vlag {
+  filter: invert(0%);
 }
 
 /* einde header */
@@ -47,7 +55,7 @@ header>nav>ul>li {
   background-size: cover;
   position: relative;
   color: white;
-  
+
 }
 
 /* .home-image {
@@ -332,9 +340,11 @@ footer>section>ul>li>a {
 .info3>ul>h5 {
   text-align: center;
 }
+
 .socials {
   padding-bottom: 3rem;
 }
+
 .socials>ul {
   display: flex;
 }
