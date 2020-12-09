@@ -36,6 +36,7 @@ Op mobiel ben ik klaar met mijn site, als het gaat om het statische gedeelte. Ik
 De afgelopen week heb ik niet zo veel voor elkaar gekregen. Hopelijk gaat dit in de komende week beter.
 
 **Screenshot(s):**
+
 <img src="images/progress3.png" width="375px" alt="omschrijving van de pagina">
 <img src="images/progress4.png" width="375px" alt="omschrijving van de pagina">
 
@@ -55,6 +56,7 @@ De afgelopen week heb ik niet zo veel voor elkaar gekregen. Hopelijk gaat dit in
 Ik ben begonnen met de HTML van de main. De "simpele" dingen gingen goed. Ik heb de wat lastigere carousel dingen uitgesteld. De footer was lastig mar is uiteindelijk goed gelukt. De basis is er nu. Hier kan ik mee verder werken, nu nog de moeilijkere dingen en de header.
 
 **Screenshot(s):**
+
 <img src="images/progress.png" width="375px" alt="omschrijving van de pagina">
 <img src="images/progress2.png" width="375px" alt="omschrijving van de pagina">
 
