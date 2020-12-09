@@ -30,7 +30,21 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
+
+Op mobiel ben ik klaar met mijn site, als het gaat om het statische gedeelte. Ik moet nog wat dingen toevoegen, bijvoorbeeld het hamburger menu, en een horzontale scroll.
+De afgelopen week heb ik niet zo veel voor elkaar gekregen. Hopelijk gaat dit in de komende week beter.
+
+**Screenshot(s):**
+<img src="images/progress3.png" width="375px" alt="omschrijving van de pagina">
+<img src="images/progress4.png" width="375px" alt="omschrijving van de pagina">
+
+### Agenda voor meeting
+
+-Student 1
+-Hoe kan ik het bovenste gedeelte van de home pagina goed maken? Dus het om de zo veel seconden verandere van de foto en tekst.
+-Hoe 
+
 
 
 
