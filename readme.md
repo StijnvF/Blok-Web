@@ -44,9 +44,20 @@ De afgelopen week heb ik niet zo veel voor elkaar gekregen. Hopelijk gaat dit in
 
 -Student 1
 -Hoe kan ik het bovenste gedeelte van de home pagina goed maken? Dus het om de zo veel seconden verandere van de foto en tekst.
--Hoe 
+-Hoe kan ik de header bovenop de main content zetten, nu word de img een beetje afgsneden, ik maak nu ook gebruik van een z-index om hem er op te leggen misschien dat dat het probleem verooraakt.
+
+Student 2
+-Hoe krijg je de achtergrond van een tekst een stuk langer en hoe kan ik daar een foto overheen zetten?
+-Ik heb het idee dat de preview van brackets soms gek doet, doordat hij soms dingen niet aanpast of dingen vanuit zichzelf.
+
+Student 3
+-Hoe wordt mijn zoekbutton een vergrootglas?
+
+Student 4
+-Hoe voeg je items toe aan je header als die groter wordt
 
 
+### Verslag van meeting
 
 
 ## Voortgang 1 (week 3)
