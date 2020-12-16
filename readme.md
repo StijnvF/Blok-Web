@@ -24,8 +24,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+-Het was wederom weer een super drukke week. Niet heel veel kunnen doen dus... Wel heb ik nog een corousel gemaakt op de home pagina> Ook heb ik gezocht naar oplossing voor een image loop bovenaan de home page. 
 
+qua statisch uiterlijk ziet de website er op het moemnt niet anders uit dan vorige week. Vandaar dat ik dus geen screenshots bijvoeg.
+
+### Agenda voor meeting
+
+Student 1
+-Kan ik met een  document.querySelector of iets in die richting ook css aan spreken en vervangen. Ik moet namelijk images loopen. Normaal doe je dit vanuit de html maar mijn achtergrond image staat in de css.
 
 
 ## Voortgang 2 (week 5)
