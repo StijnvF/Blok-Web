@@ -48,8 +48,8 @@ header>nav>ul>li {
 
 /* einde header */
 .background-boven {
-  background-image: url(../images/Super73_RSeries_HeroSlider_001_2880x1620_53b3ca9d-1240-4396-a32c-6d5fdfa18242_4472x.jpg);
-  height: 100vh;
+  background-image: url(../images/Super73_RSeries_HeroSlider_001_2880x1620_53b3ca9d-1240-4396-a32c-6d5fdfa18242_4472x.jpg); 
+  height: 100vh; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -102,9 +102,36 @@ header>nav>ul>li {
   margin-right: 5%;
 }
 
-.carousel {
+
+
+
+
+
+.carousel div img {
   width: 100%;
+  display: block;
+  height: auto;
 }
+
+.carousel{
+  position:relative;
+  display:flex;
+  scroll-snap-type: x mandatory;
+  overflow: scroll;
+}
+
+.carousel div {
+  position:relative;
+  width:calc(100vw);
+  max-width:32em;
+  flex-shrink:0;
+  
+ 
+}
+
+
+
+
 
 .uitgelicht {
   display: flex;
