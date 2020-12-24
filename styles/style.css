@@ -31,7 +31,7 @@ nav {
   display: flex;
 }
 
-.logo{
+.logo {
   width: 6.5em;
   margin-left: .5em;
 }
@@ -60,6 +60,24 @@ header>nav>ul>li {
   filter: invert(0%);
 }
 
+.dingen>li>a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  font-weight: 100;
+}
+
+
+nav button {
+  border: none;
+  filter: invert(100%);
+  width: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  z-index: 100;
+}
+
 .dingen {
   flex-direction: column;
   background-color: black;
@@ -71,29 +89,42 @@ header>nav>ul>li {
   transform: translatex(-100%);
 }
 
-.dingen>li>a {
-  filter: invert(100%);
-  color: white;
-  text-decoration: none;
-}
-nav button {
-  border: none;
-  filter: invert(100%);
-  width: 16px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-  
 
+.dingen li {
+  margin-top: 1.5em;
+  margin-left: 1em;
+  width: 90%;
+  border-bottom: solid white 1px;
+}
 
+/* copy paste van sanne */
+nav button::before {
+  content: url(/icons/bars-solid.svg);
+  display: inline-block;
+  width: 1em;
+  transform: scale(1.5);
+}
+
+/* copy paste van sanne */
+nav.toonMenu button::before {
+  content: url(/icons/bars-solid.svg);
+}
+
+nav.toonMenu .dingen {
+  transform: translatex(0);
+}
+
+nav ul {
+  transition: .5s;
+}
 
 
 
 /* einde header */
 
 .background-boven {
-  background-image: url(../images/Super73_RSeries_HeroSlider_001_2880x1620_53b3ca9d-1240-4396-a32c-6d5fdfa18242_4472x.jpg); 
-  height: 100vh; 
+  background-image: url(../images/Super73_RSeries_HeroSlider_001_2880x1620_53b3ca9d-1240-4396-a32c-6d5fdfa18242_4472x.jpg);
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -103,12 +134,12 @@ nav button {
 }
 
 .home-image {
-    height: 100vh;
-    position: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  height: 100vh;
+  position: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .home-text {
   text-align: center;
@@ -157,28 +188,28 @@ nav button {
   height: auto;
 }
 
-.carousel{
+.carousel {
   /* position:relative; */
-  display:flex;
+  display: flex;
   scroll-snap-type: x mandatory;
   overflow: scroll;
 }
 
 .carousel div {
   /* position:relative; */
-  width:calc(100vw);
-  max-width:32em;
-  flex-shrink:0;
+  width: calc(100vw);
+  max-width: 32em;
+  flex-shrink: 0;
 }
 
 
 
 /* start uitgelicht */
-.ding{
+.ding {
   display: flex;
-  background-color:black;
+  background-color: black;
   padding: 3em 0 4em 0;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .ding>h2 {
@@ -253,15 +284,15 @@ nav button {
 
 
 .uitgelicht {
-  display:flex;
+  display: flex;
   scroll-snap-type: x mandatory;
   overflow: scroll;
 }
 
 .uitgelicht article {
-  width:calc(100vw);
-  max-width:32em;
-  flex-shrink:0;
+  width: calc(100vw);
+  max-width: 32em;
+  flex-shrink: 0;
 }
 
 
@@ -362,10 +393,12 @@ footer {
   background-color: #222222;
   color: white;
 }
+
 footer section img {
   margin-bottom: 1em;
   width: 100px;
 }
+
 footer>section {
   display: flex;
   align-items: center;
