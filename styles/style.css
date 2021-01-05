@@ -281,8 +281,6 @@ nav ul {
   margin-top: 1em;
 }
 
-
-
 .uitgelicht {
   display: flex;
   scroll-snap-type: x mandatory;
@@ -294,10 +292,6 @@ nav ul {
   max-width: 32em;
   flex-shrink: 0;
 }
-
-
-
-
 
 /* 3x bike met tekst */
 .bikes {
@@ -353,10 +347,23 @@ nav ul {
 
 .reviews {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+  scroll-snap-type: x mandatory;
+  overflow: scroll;
 }
 
-.reviews>p {
+.reviews>article {
+  display: flex;
+  flex-direction: column;
+
+ 
+  width:calc(100vw);
+  max-width:32em;
+  flex-shrink:0;
+
+}
+
+.reviews>article>p {
   line-height: 1.7em;
   text-align: center;
   margin-top: 8em;
@@ -366,7 +373,7 @@ nav ul {
   font-style: italic;
 }
 
-.reviews>cite {
+.reviews>article>cite {
   margin-top: 1em;
   text-align: center;
   font-size: 1.25em;
