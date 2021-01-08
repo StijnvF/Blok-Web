@@ -66,6 +66,7 @@ header>nav>ul>li {
   text-transform: uppercase;
   font-size: 1.3em;
   font-weight: 100;
+  width: auto;
 }
 
 
@@ -115,9 +116,36 @@ nav.toonMenu .dingen {
 }
 
 nav ul {
-  transition: .5s;
+  transition: none;
 }
 
+@media (min-width:1200px) {
+  nav button {
+    display:none;
+  }
+  .dingen {
+    position:relative;
+    padding:0;
+    transform:none;
+    background:none;
+    display: flex;
+    flex-direction: row;
+    width: 60em;
+  }
+  .dingen li {
+    border-bottom: none;
+    margin-top: 0;
+    margin-left: 5em;
+    width: auto;
+  }
+  .dingen li:nth-of-type(6) {
+    display: none;
+  }
+  .dingen li:last-of-type {
+    display: none;
+  }
+ 
+}
 
 
 /* einde header */
@@ -185,23 +213,26 @@ nav ul {
 .carousel div img {
   width: 100%;
   display: block;
-  height: auto;
+  /* height: auto; */
 }
 
 .carousel {
-  /* position:relative; */
   display: flex;
   scroll-snap-type: x mandatory;
   overflow: scroll;
 }
 
 .carousel div {
-  /* position:relative; */
   width: calc(100vw);
   max-width: 32em;
   flex-shrink: 0;
 }
-
+/* @media (min-width: 1000px){
+  .carousel div img {
+    width: 25%;
+    height: auto;
+  }
+} */
 
 
 /* start uitgelicht */
@@ -289,17 +320,22 @@ nav ul {
 
 .uitgelicht article {
   width: calc(100vw);
-  max-width: 32em;
+  width: 100%;
   flex-shrink: 0;
 }
-
+@media (min-width: 1000px){
+  .uitgelicht article{
+    width: 50%;
+    padding: 2em;
+  }
+}
 /* 3x bike met tekst */
 .bikes {
   display: flex;
   flex-direction: column;
 }
 
-.bikes>article>img {
+.bikes article img {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -308,14 +344,14 @@ nav ul {
   padding-right: 1em;
 }
 
-.bikes>article>h2 {
+.bikes article div h2 {
   font-size: 2em;
   margin-top: 1em;
   margin-left: .5em;
   margin-right: .5em;
 }
 
-.bikes>article>p {
+.bikes article div p {
   margin-top: 1em;
   margin-bottom: 2em;
   line-height: 1.3em;
@@ -323,7 +359,7 @@ nav ul {
   margin-right: 1em;
 }
 
-.bikes>article>a {
+.bikes article div a {
   background: black;
   color: white;
   text-decoration: none;
@@ -335,19 +371,41 @@ nav ul {
   margin-left: 1em;
   margin-right: 1em;
 }
-
+.bikes article {
+  display: flex;
+  flex-direction: column;
+}
 .bikesB {
   text-align: right;
-
 }
 
-.merken {
-  display: flex;
+
+@media (min-width: 760px){
+  .bikes>article>img {
+    width: 50%;
+  }
+  .bikes article {
+    flex-direction: row;
+  }
+  .bikesB{
+    justify-content: left;
+  }
 }
+
+@media (min-width: 1000px){
+  
+  .bikes article {
+    flex-direction: row;
+    width: 62.5em;
+    align-self: center;
+  }
+}
+
+
+
 
 .reviews {
   display: flex;
-  /* flex-direction: column; */
   scroll-snap-type: x mandatory;
   overflow: scroll;
 }
@@ -355,12 +413,9 @@ nav ul {
 .reviews>article {
   display: flex;
   flex-direction: column;
-
- 
   width:calc(100vw);
-  max-width:32em;
+  max-width:37.5em;
   flex-shrink:0;
-
 }
 
 .reviews>article>p {
@@ -378,6 +433,20 @@ nav ul {
   text-align: center;
   font-size: 1.25em;
 }
+
+@media (min-width: 600px){
+  .reviews article {
+    width: 19em;
+  }
+}
+@media (min-width: 950px){
+  .reviews  {
+    width: 58em;
+    
+  }
+}
+
+
 
 .merken>img {
   display: flex;
@@ -399,33 +468,34 @@ video {
 footer {
   background-color: #222222;
   color: white;
+  /* display: flex; */
 }
 
-footer section img {
+footer div section img {
   margin-bottom: 1em;
   width: 100px;
 }
 
-footer>section {
+footer div section {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-footer>section>h5 {
+footer div section h5 {
   align-self: center;
   margin-top: 3em;
 }
 
-footer>section>ul {
+footer div section ul {
   list-style-type: none;
 }
 
-footer>section>ul>li {
+footer div section ul li {
   margin-top: 0.8em;
 }
 
-footer>section>ul>li>a {
+footer div section ul li a {
   text-decoration: none;
   color: rgb(179, 179, 179);
 }
@@ -446,6 +516,7 @@ footer>section>ul>li>a {
   text-align: center;
   font-size: .75em;
   color: rgba(255, 255, 255, 0.281);
+  width: 18em;
 }
 
 .info {
@@ -457,6 +528,7 @@ footer>section>ul>li>a {
   margin-left: 10%;
   margin-bottom: 1em;
   text-align: center;
+  /* width: 20em; */
 }
 
 .info2 {
@@ -470,16 +542,16 @@ footer>section>ul>li>a {
 
 .info3 {
   display: flex;
-  margin-bottom: 3em;
+  margin-bottom: 1.5em;
 }
 
 .info3>ul>li {
   text-align: center;
 }
 
-.info3>ul>h5 {
+/* .info3>ul>h5 {
   text-align: center;
-}
+} */
 
 .socials {
   padding-bottom: 3rem;
@@ -491,6 +563,27 @@ footer>section>ul>li>a {
 
 .socials>ul>li {
   flex-direction: row;
+}
+.socials ul li a img {
+  filter: invert(100%);
+  width: 1em;
+  margin-left: .5em;
+  margin-right: .5em;
+}
+
+@media (min-width: 775px) {
+  footer {
+    display: flex;
+    padding: 4em 2em 2em 2em;
+    align-items: center;
+  }
+  /* .info3 ul li {
+    text-align: left;
+  }
+  .bovenfooter ul li  {
+    text-align: left;
+    align-self: left;
+  } */
 }
 
 /* einde footer */
