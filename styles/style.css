@@ -8,7 +8,7 @@
 }
 
 /* start header */
-header nav ul li a img {
+header>nav>ul>li>a>img {
   width: 16px;
   filter: invert(100%);
 }
@@ -63,7 +63,6 @@ nav button {
   margin-left: 10px;
   margin-right: 10px;
   z-index: 100;
-  
 }
 
 header nav ul:first-of-type {
@@ -84,18 +83,28 @@ header nav ul:first-of-type li {
   border-bottom: solid white 1px;
 }
 
-/* Bron van sanne zijn codepen */
- nav button::before {
+
+/* .menu{
+  transform: translatex(0);
+} */
+
+
+/* copy paste van sanne zijn codepen*/
+nav button::before {
   content: url(/icons/bars-solid.svg);
   display: inline-block;
   width: 1em;
   transform: scale(1.5);
 }
 
-/* Bron: van sanne zijn codepen*/
+/* copy paste van sanne zijn codepen*/
 nav.toonMenu button::before {
   content: url(/icons/bars-solid.svg);
 }
+
+
+
+
 
 nav.toonMenu .hamburger {
   transform: translatex(0);

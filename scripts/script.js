@@ -8,3 +8,12 @@ function toggleMenu(event) {
 }
 
 // bron: is van sanne zijn codepen. https://codepen.io/shooft/pen/BaKGKwm
+
+// var ulElement = document.querySelector('header nav ul:first-of-type');
+// var button = document.querySelector('nav button');
+
+// function toggleClass() {
+// ulElement.classList.toggle("menu")
+// }
+
+// button.addEventListener('click', toggleClass);
