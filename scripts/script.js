@@ -7,4 +7,4 @@ function toggleMenu(event) {
   deNav.classList.toggle("toonMenu");
 }
 
-// bron is van sanne zijn codepen.
+// bron: is van sanne zijn codepen. https://codepen.io/shooft/pen/BaKGKwm
