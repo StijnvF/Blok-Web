@@ -1,5 +1,5 @@
 ﻿# Procesverslag
-**Auteur:** -jouw naam-
+**Auteur:** Stijn van Fraeijenhove
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
@@ -14,12 +14,19 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Eindgesprek (week 7/8)
 
+Het was alweer een tijdje geleden dat ik had gecodeerd toen we aan deze opdracht begonnen, dit bleek niet echt een probleem te zijn. De meeste dingen had ik nog paraat en ik kwam er opnieuw weer achter waarom ik dit leuk vind. Het voelt als een soort puzzel die opgelost moet worden. De “standaard” dingen kreeg ik vrij goed voor elkaar. Het was leuk om met media querys te werken, je kan hier echt nice dingen mee doen. Grid heb ik niet gebruikt in mijn site omdat alles vrij goed te flexboxen was maar ik denk dat ik dit in de toekomst zeker wil gaan gebruiken. 
+
+Verder was het een zware periode. Ik had de afgelopen maanden moeite met het thuis werken en om de motivatie te vinden om aan de slag te gaan. Zo had ik dieper in Javascript willen duiden maar dit is niet gelukt door een gebrek aan motivatie en tijd. Dit vind ik oprecht jammer omdat ik in een normalen situatie dit heel leuk vind. 
+Toch heb ik weer veel geleerd en blijf ik zeker door gaan met coderen en programmeren!
+
+
+
 -dit ging goed & dit was lastig-
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
-
+<img src="images/home.eind.png" width="375px" alt="omschrijving van de pagina">
+<img src="images/detail.eind.png" width="375px" alt="omschrijving van de pagina">
 
 
 ## Voortgang 3 (week 6)
