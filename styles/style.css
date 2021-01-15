@@ -99,7 +99,7 @@ nav button::before {
 
 /* copy paste van sanne zijn codepen*/
 nav.toonMenu button::before {
-  content: url(..//icons/bars-solid.svg);
+  content: url(../icons/bars-solid.svg);
 }
 
 
